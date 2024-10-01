@@ -1,0 +1,11 @@
+# assumes parent folder is in this directory
+whitelist: #true/false
+  groups: #list groups, separated by a single space
+pack-list:
+  # default pack must be named mainpack
+  mainpack:
+    port:
+    location: #/web/__.zip
+  additionalpack:
+    port:
+    location: #/web/__.zip

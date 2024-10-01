@@ -1,0 +1,33 @@
+name: CosmelonPlugin
+version: '${project.version}'
+date:
+main: me.cosmelon.cosmelonplugin.CosmelonPlugin
+api-version: '1.20'
+commands:
+  playerhide:
+    description: Hides players
+    usage: /playerhide
+  playershow:
+    description: Shows hidden players
+    usage: /playershow
+  reloadpack:
+    description: Fresh copy of the resourcepack
+    usage: /reloadresources
+  colorblind:
+    description: Turns on the colorblind resourcepack
+    usage: /colorblind
+  whitelist:
+    description: UUID whitelist
+    usage: /whitelist
+    permission: CosmelonPlugin.whitelist
+  memusage:
+    description: Check server RAM usage
+    usage: /memusage
+    permission: CosmelonPlugin.memusage
+  fixmusic:
+    description: Restarts the current music track
+    usage: /fixmusic
+  reafycheck:
+    description: Does a ready check
+    usage: /reafycheck
+    permission: CosmelonPlugin.memusage
