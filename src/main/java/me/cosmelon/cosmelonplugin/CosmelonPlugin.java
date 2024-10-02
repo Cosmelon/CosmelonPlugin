@@ -257,34 +257,3 @@ public final class CosmelonPlugin extends JavaPlugin implements Listener {
     }
 
 }
-
-//    /**
-//     * this is not efficiently done whatsoever
-//     */
-//    private String getCurrentGame() {
-//        Scoreboard scoreboard = Bukkit.getScoreboardManager().getMainScoreboard();
-//        Objective objective = scoreboard.getObjective("br_cgame");
-//
-//        // collect a list, this is utterly fucking stupid but I need to get the
-//        //  pack back online stat
-//        ArrayList<String> game_list = new ArrayList<>();
-//        if (objective != null) {
-//            for (String player_name : scoreboard.getEntries()) {
-//                if (player_name.charAt(0) != '.' && !player_name.substring(0,4).equals("brawl")) continue;
-//
-//                Score score = objective.getScore(player_name);
-//                int player_score = score.getScore();
-//
-//                game_list.add(player_name + ": " + player_score);
-//            }
-//
-//        }
-//
-//        // interpret it
-//        if (game_list.contains(".spleef: 1")) return "spleef";
-//        else if (game_list.contains(".race: 1")) return "race";
-//        else if (game_list.contains(".blockparty: 1")) return "blockparty";
-//        else if (game_list.contains(".halls: 1")) return "halls";
-//        else if (game_list.contains("brawl: 1")) return "brawl";
-//        else return "lobby";
-//    }
